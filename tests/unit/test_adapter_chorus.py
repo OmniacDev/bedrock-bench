@@ -23,8 +23,8 @@ from workloads import WORKLOAD, with_overrides
 
 ROOT = Path(__file__).resolve().parents[2]
 LOGS = ROOT / "tests" / "fixtures" / "logs"
-VERSION = "c713af8"
-COMMIT = "c713af81d4c2379e4694a55c9f11344efe4b2a39"
+VERSION = "8a0a092"
+COMMIT = "8a0a0924ad2dbe78bce0ba686690bbcf572f756f"
 
 #: 'chorusbench -defaults' of the pinned build.
 DEFAULTS = """\
@@ -64,6 +64,9 @@ name = "world"
 seed = 0
 chunk_saving = "modified"
 max_view_distance = 32
+retention_budget = 1.0
+lookahead = 0
+chunk_cache = 0.5
 autosave = "1m"
 
 [level.database]

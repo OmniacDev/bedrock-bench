@@ -12,8 +12,8 @@ name = "chorusbench"
 path = "main.rs"
 
 [dependencies]
-chorus = { git = "https://github.com/bedrock-crustaceans/chorus", rev = "c713af81d4c2379e4694a55c9f11344efe4b2a39" }
-chorus_core = { git = "https://github.com/bedrock-crustaceans/chorus", rev = "c713af81d4c2379e4694a55c9f11344efe4b2a39" }
+chorus = { git = "https://github.com/bedrock-crustaceans/chorus", rev = "8a0a0924ad2dbe78bce0ba686690bbcf572f756f" }
+chorus_core = { git = "https://github.com/bedrock-crustaceans/chorus", rev = "8a0a0924ad2dbe78bce0ba686690bbcf572f756f" }
 bedrock = { git = "https://github.com/bedrock-crustaceans/bedrock-rs", branch = "main", default-features = false, features = ["protocol"] }
 bevy_app = "0.20.0"
 bevy_ecs = "0.20.0"
